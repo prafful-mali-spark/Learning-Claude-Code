@@ -37,6 +37,21 @@ notebooks/      # exploration only, never import from src
 - Never hardcode API keys — always read from env
 - One data source per fetcher file
 
+## Claude Code: Always Check Latest Practices
+
+Before implementing anything new in this project:
+1. **Web search first** — check if Claude Code has a built-in feature, skill, or better pattern for it
+2. Check Claude Code docs for: hooks, MCP servers, skills, memory, subagents, plan mode
+3. If newer/better Claude Code approach exists — use it, explain why
+
+This project is a learning exercise. Discovering and using Claude Code features IS the goal.
+
+Examples of when to search:
+- About to write a bash script → check if a hook does it
+- About to do repetitive task → check if a skill exists
+- About to call external API → check if MCP server exists
+- About to run parallel work → consider subagents
+
 ## What NOT to do
 
 - No pandas in fetchers (polars only)

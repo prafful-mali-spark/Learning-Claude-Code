@@ -4,15 +4,15 @@ Living document. Update as we build.
 
 ---
 
-## Phase 0: Claude Code Setup ✅ IN PROGRESS
+## Phase 0: Claude Code Setup ✅ DONE
 
 Goal: Configure Claude Code for this project before writing any code.
 
 - [x] CLAUDE.md — project rules, conventions, stack
 - [x] .gitignore
 - [x] .claude/settings.json — MCP (GitHub), permissions, hooks
-- [ ] Memory — save project context for future sessions
-- [ ] Initial git commit + push to GitHub
+- [x] Memory — project context saved
+- [x] Initial git commit + push to GitHub
 
 Claude Code features: CLAUDE.md, settings.json, Memory, MCP
 
